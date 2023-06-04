@@ -1,0 +1,98 @@
+@media screen and (max-width: 1442px) {
+    .CharacterContainer:before {
+        content: "";
+        background-image: url("img/LogoContainerBg.png");
+        display: inline-block;
+
+        width: 600px;
+        height: 760px;
+
+        position: absolute;
+        bottom: 50%;
+        right: 60%;
+
+        margin-bottom: -60px;
+        margin-right: -400px;
+        border-radius: 40px;
+        /*display: flex;*/
+        /*position: absolute;*/
+
+        /*bottom: -32px;*/
+        /*right: 600px;*/
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    .CharacterContainer:before {
+        content: "";
+        background-image: url("img/LogoContainerBg.png");
+        display: inline-block;
+
+        width: 600px;
+        height: 760px;
+
+        margin-bottom: 16px;
+        margin-right: -300px;
+        border-radius: 40px;
+    }
+    .WelcomeContainer2 {
+        position: absolute;
+        right: 44%;
+        top: 50%;
+
+        margin-right: -25%;
+        margin-top: -10%;
+    }
+    .CharacterContainer:after {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+
+        margin-bottom: -60px;
+        margin-right: -350px;
+        border-radius: 40px;
+        z-index: 6;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .CharacterContainer:before {
+        content: "";
+        background-image: url("img/LogoContainerBg.png");
+        display: inline-block;
+
+        width: 600px;
+        height: 760px;
+
+        position: absolute;
+        bottom: 10%;
+        right: 60%;
+
+        margin-bottom: 80px;
+        margin-right: -240px;
+        border-radius: 40px;
+    }
+    .WelcomeContainer2 {
+        position: absolute;
+        right: 30%;
+        top: 44%;
+
+        margin-right: -25%;
+        margin-top: -10%;
+    }
+    .CharacterContainer:after {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+
+        margin-bottom: -20px;
+        margin-right: -100px;
+        border-radius: 40px;
+        z-index: 6;
+    }
+}
+.WelcomeContainer {
+    position: absolute;
+    bottom: 40%;
+    right: 60%;
+}
